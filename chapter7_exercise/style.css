@@ -15,3 +15,20 @@
   padding: 20px 0 0 20px;
   color: #848282;
 }
+
+main{
+  width: 840px;
+  margin: 50px auto;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+.main-box {
+  width: 840px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #bdbdbd;
+}
+.main-box-text {
+  color: #848282;
+
+}
