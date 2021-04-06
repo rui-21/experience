@@ -10,11 +10,27 @@ a {
   text-decoration: none;
 }
 
+header,nav,h2,.main-visual,footer {
+  font-family: Chalkduster,"Bradlly Hand",Courier,"Segoe Print",sans-serif;
+}
+
 header {
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  position:relative;
+}
+
+.social {
+  position: absolute; /* .headerの左上を基準に絶対位置で指定する  */
+  top: 22px; /* 上から下側へ22px移動する  */
+  right:22px; /* 右から左側へ22px移動する  */
+}
+
+.social i {
+  display: inline-block;
+  margin-left: 20px;
 }
 
 header.heading {
