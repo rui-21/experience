@@ -11,7 +11,7 @@ header {
 
 main {
   width: 960px;
-  margin: 50px 0;
+  margin: 50px auto;
   display:flex;
   justify-content: center;
 }
@@ -28,20 +28,25 @@ main {
   margin-left: 30px;
 }
 
-.main-visual-image {
+.main-img{
   height: 150px;
   background-size: cover;
   margin-bottom: 15px;
+  background-position:bottom;
 }
-.main-visual-image:nth-child(1){
+.main-visual-image1{
   background-image: url(img/flow01.png);
-  background-position: bottom;
 }
-
+.main-visual-image2{
+  background-image: url(img/flow02.png);
+}
+.main-visual-image3{
+  background-image: url(img/flow03.png);
+}
 .step-text {
-  padding: 5px 0;
+  padding: 3px;
   background-color: #ff9a4b;
-  color: white;
+  color: #fff;
   position: absolute;
   top: 0;
   left: 0;
