@@ -61,3 +61,17 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+@media screen and (max-width: 425px) {
+  main {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main-box {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .main-box:nth-child(2){
+    margin:20px 5%;
+  }
+}
