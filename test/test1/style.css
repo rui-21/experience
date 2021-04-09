@@ -11,11 +11,13 @@ main {
   margin: 0 auto;
   flex-wrap: wrap;
   align-items: center;
+  background-color: #007add;
+  border: 30px ridge rgb(182, 127, 55);
 }
 div {
-  width: 384px;
-  height: 384px;
-  border-radius: 60% 0 0 0;
+  width: 354px;
+  height: 354px;
+  border-radius: 0 80% 0 80%;
   background-image: url(img/box1.jpg);
   background-size: cover;
   background-position: right;
