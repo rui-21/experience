@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+
+  width: 561px;
+  height: 561px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #333;
+  border: solid 30px darkgreen;
+}
+.main-box {
+  width: 354px;
+  height: 354px;
+  border: solid 30px green;
+  transform: rotate(45deg);
+  background-color: #777;
+  position: relative;
+}
+.main-box-box {
+  width: 147px;
+  height: 147px;
+  border: solid 30px aquamarine;
+  background-color: skyblue;
+}
+.main-box-box:nth-child(2){
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
