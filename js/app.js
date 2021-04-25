@@ -1,9 +1,3 @@
-var alertString;
-alertString = addString("WebCamp");
+var user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください。');
 
-alert(alertString);
-
-function addString(strA){
-  var addStr = "Hello " + strA;
-  return addStr;
-}
+alert('あなたが選んだ手は' + user_hand + 'です');
